@@ -1,0 +1,3 @@
+class TrainRoutesController < ApplicationController
+     
+end
