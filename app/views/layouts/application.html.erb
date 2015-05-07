@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="tripplanner">
 <head>
   <title>TripPlanner</title>
   <%= stylesheet_link_tag    'application', media: 'all'%>
@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Train Routes</a>
+          <a class="navbar-brand" ui-sref="find_routes">Train Routes</a>
       </div>
     </div> 
   </nav>

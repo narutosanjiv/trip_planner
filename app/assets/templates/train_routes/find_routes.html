@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Train Between Stations</div>
+  <div class="panel-body">
+    <form class='form-horizontal' name='train_routes_form'>
+      <div class="btn-group">
+
+        <label class="btn btn-primary" ng-model="train_route.trip_type" btn-radio="'one_way'" uncheckable>
+          OneWay
+        </label>
+
+        <label class="btn btn-primary" ng-model="train_route.trip_type" btn-radio="'round_trip'" uncheckable>
+          RoundTrip
+        </label>
+
+        <label class="btn btn-primary" ng-model="train_route.trip_type" btn-radio="'multipart'" uncheckable>
+          Multipart
+        </label>
+
+      </div> 
+    </form>
+  </div>
+
+</div>

@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap-sprockets
+//= require bootstrap
 //= require angular
 //= require angular-animate
 //= require angular-resource
@@ -20,3 +20,6 @@
 //= require angular/trip_planner
 //= require angular/angular-ui-router
 //= require angular/ng-table
+//= require angular/nya-bs-select
+
+//= require_tree ./angular/controllers
