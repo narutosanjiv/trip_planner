@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails', '7.0.0'
 # Using postgresql as the database for Active Record
 gem 'pg'
 gem 'postgres_ext'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'angular-ui-bootstrap-rails'
 gem 'font-awesome-sass'
@@ -40,13 +40,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'angularjs-rails'
 gem 'angular-gem'
 gem 'angular-ui-bootstrap-rails'
-gem 'puma'
+gem 'puma', '>= 2.12.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 3.0', '>= 3.0.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
